@@ -1,0 +1,18 @@
+.auth{min-height:100vh;display:grid;place-items:center;padding:24px;background:var(--bg)}
+.auth-card{width:min(420px,100%);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:28px}
+.auth-brand{font-size:13px;font-weight:600;color:var(--acc);margin-bottom:6px}
+.auth-card h1{font-size:22px;font-weight:600}
+.auth-sub{color:var(--mute);margin:4px 0 18px}
+.auth-card .form{margin-top:0}
+.auth-card .btn.pri{width:100%;padding:10px 14px;margin-top:4px}
+.pw{position:relative}
+.pw input{padding-right:64px}
+.pw button{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:none;color:var(--acc);cursor:pointer;font-size:13px;padding:4px 8px}
+.err{background:var(--bad-s);color:var(--bad);padding:8px 12px;border-radius:8px}
+.auth-foot{text-align:center;color:var(--mute);margin-top:16px}
+.auth-foot a{color:var(--acc);font-weight:500;text-decoration:none}
+.auth-foot a:hover{text-decoration:underline}
+.auth-loading{color:var(--mute)}
+.me .logout{margin-top:8px;border:1px solid #4A3D35;background:transparent;color:#CFC5BA;padding:4px 12px;border-radius:8px;cursor:pointer;font-size:13px}
+.me .logout:hover{background:#3A2E27}
+@media (max-width:900px){.side .me{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 4px}.me .logout{margin-top:0}}
